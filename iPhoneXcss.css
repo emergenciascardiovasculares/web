@@ -1,0 +1,191 @@
+@font-face {
+
+font-family: "Myriad Pro";
+
+src: url(fonts/myriadpro/myriadpro.eot),  url(fonts/myriadpro/myriadpro.ttf),  url(fonts/myriadpro/myriadpro.woff);
+
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+ul, ol {
+list-style: none;
+}
+
+header {
+width: 100%;
+}
+/* navigation bar */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    opacity: 0.95;
+}
+
+ul.menu li {
+    float: left;
+    width: 12%;
+    display: block;
+}
+
+ul.menu li a {
+    display: block;
+    color: lightgray;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    color: gray;
+}
+@media screen and (max-width: 600px){
+    ul.menu li.right, 
+    ul.menu li {
+        visibility: hidden;
+    }
+    ul.menu li:first-child {
+        visibility: visible;
+        width: 100%;
+        max-height: 4px;
+        padding: 0px;
+    }
+
+}
+/* iPhoneX special navigation bar */
+.iPhoneXMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.iPhoneXMenu li {
+    padding-top: 50px;
+    float: left;
+}
+
+.iPhoneXMenu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.iPhoneXMenu li a:hover {
+    color: blue;
+}
+.buyButton {
+    border-radius: 8px;
+    background-color: dodgerblue;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    padding: 0px;
+}
+/* h1 iphoneX title */
+h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+}
+#exploreiphoneXaccessories {
+    padding-top: 0px;
+}
+#compareiphone {
+    padding-top: 0px;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+h2 a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+h2 a:hover {
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    font-size: 17px;
+    float: left;
+    padding-top: 35px;
+    padding-left: 5px;
+}
+/* iphoneX video */
+.iphoneXVideo {
+    padding-top: 40px;
+    border: 0px solid;
+}
+.DesignandDisplay {
+    padding-top: 40px;
+}
+/* images design */
+.Itsallscreen {
+    padding-top: 20px;
+}
+#allscreenimg {
+    padding-top: 80px;
+}
+#unlockgif {
+    padding: 50px 250px 20px 250px;
+}
+#inovativetechnologyimg {
+    padding-top: 0px;
+}
+#Oleddesign {
+    padding: 20px 60px 20px 60px;
+}
+#truedepthcamera {
+    padding: 20px 20px 20px 20px;
+}
+#allnewdesign {
+    padding: 20px 30px 20px 30px;
+}
+#intuitiveGestures {
+    padding: 100px 30px 20px 60px;
+}
+#secureAuthintication {
+    padding: 30px 10px 20px 10px;
+}
+#facialmapping {
+    padding: 50px 100px 20px 100px;
+}
+#applePay {
+    padding: 50px 100px 20px 100px;
+}
+#faceidthinnking {
+    padding: 0px;
+}
+#faceidfrontface {
+    padding: 0px;
+}
+#iphoneXaccessories {
+    padding: 30px 10px 20px 10px;
+}

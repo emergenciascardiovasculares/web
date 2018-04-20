@@ -1,0 +1,390 @@
+
+@font-face {
+
+font-family: "Myriad Pro";
+
+src: url(fonts/myriadpro/myriadpro.eot),  url(fonts/myriadpro/myriadpro.ttf),  url(fonts/myriadpro/myriadpro.woff);
+
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+ul, ol {
+list-style: none;
+}
+
+header {
+width: 100%;
+}
+/* navigation bar */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    opacity: 0.95;
+}
+
+ul.menu li {
+    float: left;
+    width: 12%;
+    display: block;
+}
+
+ul.menu li a {
+    display: block;
+    color: lightgray;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    color: gray;
+}
+@media screen and (max-width: 600px){
+    ul.menu li.right, 
+    ul.menu li {
+        visibility: hidden;
+    }
+    ul.menu li:first-child {
+        visibility: visible;
+        width: 100%;
+        max-height: 4px;
+        padding: 0px;
+    }
+
+}
+/* iPhoneX photo */
+.containerIphonex {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0;
+}
+/* gallery */
+.photorow {
+    display: flex;
+}
+.photocolumn {
+    flex: 50%;
+    padding: 5px;
+    max-width: 100%;
+}
+/* footer design */
+@font-face {
+    font-family: 'Apple Legacy Chevron';
+    font-style: normal;
+    font-weight: 100;
+    src: local(""), url("../assets/ac-footer/legacy/appleicons_ultralight.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_ultralight.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Apple Icons 100";
+    src: url("../assets/ac-footer/legacy/appleicons_ultralight.eot")
+}
+
+@font-face {
+    font-family: 'Apple Legacy Chevron';
+    font-style: normal;
+    font-weight: 200;
+    src: local(""), url("../assets/ac-footer/legacy/appleicons_thin.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_thin.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Apple Icons 200";
+    src: url("../assets/ac-footer/legacy/appleicons_thin.eot")
+}
+
+@font-face {
+    font-family: 'Apple Legacy Chevron';
+    font-style: normal;
+    font-weight: 300;
+    src: local(""), url("../assets/ac-footer/legacy/appleicons_thin.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_thin.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Apple Icons 300";
+    src: url("../assets/ac-footer/legacy/appleicons_thin.eot")
+}
+
+@font-face {
+    font-family: 'Apple Legacy Chevron';
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Apple Icons 400";
+    src: url("../assets/ac-footer/legacy/appleicons_text.eot")
+}
+
+@font-face {
+    font-family: 'Apple Legacy Chevron';
+    font-style: normal;
+    font-weight: 500;
+    src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Apple Icons 500";
+    src: url("../assets/ac-footer/legacy/appleicons_text.eot")
+}
+
+@font-face {
+    font-family: 'Apple Legacy Chevron';
+    font-style: normal;
+    font-weight: 600;
+    src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Apple Icons 600";
+    src: url("../assets/ac-footer/legacy/appleicons_text.eot")
+}
+
+@font-face {
+    font-family: 'Apple Legacy Chevron';
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Apple Icons 700";
+    src: url("../assets/ac-footer/legacy/appleicons_text.eot")
+}
+
+@font-face {
+    font-family: 'Apple Legacy Chevron';
+    font-style: normal;
+    font-weight: 800;
+    src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Apple Icons 800";
+    src: url("../assets/ac-footer/legacy/appleicons_text.eot")
+}
+
+@font-face {
+    font-family: 'Apple Legacy Chevron';
+    font-style: normal;
+    font-weight: 900;
+    src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Apple Icons 900";
+    src: url("../assets/ac-footer/legacy/appleicons_text.eot")
+}
+/* rows of directory */
+.ac-globalfooter {
+    background-color:whitesmoke;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+/* directory columns */
+.directory-column {
+    float: left;
+    width: 17%;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+/* link */
+.directory-column-item-link {
+    color: black;
+    text-decoration: none;
+    font-size: .65em;
+}
+.directory-column-item-link:hover {
+    text-decoration: underline;
+}
+/* h3 title of the list */
+.directory-column-list-title {
+    font-size: .8em;
+}
+
+/* last lines in the footer (paragraph) */
+.para1 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.para2 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+p {
+    color: gray;
+    font-size: 12px;
+}
+/* unordered list in the footer */
+ul.downmenu {
+    padding-top: 5px;
+    float: right;
+    width: 100%;
+}
+ul.downmenu li {
+    float: left;
+    display: block;
+    font-size: 12px;
+    border-right: 1px solid;
+    border-color: lightgray;
+    width: auto;
+}
+ul.downmenu li:last-child {
+    border: none;
+}
+ul.downmenu li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding-top: 0px;
+    text-decoration: none;
+    width: auto;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+ul.downmenu li a:hover {
+    text-decoration: underline;
+}
+/* footer lastline */
+.footerlastline {
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.left {
+    width: 30%;
+}
+.middle {
+    width: 50%;
+}
+.right {
+    width: 10%;
+}
+.column:last-child {
+    width: 10%;
+}
+.footerlastline:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* flag icon */
+.flag {
+    float: right;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+.lebanon {
+    font-size: 12px;
+    float: right;
+    padding-top: 7px;
+    padding-right: 50px;
+}
+/* responsive footer design */
+@media screen and (max-width: 600px){
+    .directory-column-list-title {
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px;
+    margin: 0;
+    font-size: 12px;
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+    
+    .directory-column {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: whitesmoke;    
+}
+    .directory-column-list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;    
+}
+    .directory-column-list a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+.directory-column-list a:hover {
+    background-color: #f1f1f1
+    }
+
+.directory-column:hover .directory-column-list {
+    display: block;
+}
+
+.directory-column:hover ..directory-column-list-title {
+    background-color: #3e8e41;
+}
+    hr {
+        visibility: hidden;
+    }
+.column {
+    float: left;
+    width: 100%;
+}
+.left {
+    float: left;
+    width: 100%;
+}
+.middle {
+    float: left;
+    width: 100%;
+}
+.right {
+    float: left;
+    width: 100%;
+}
+.column:last-child {
+    float: left;
+    width: 100%;
+}
+    .flag {
+        float: left;
+    }
+    .lebanon {
+        float: left;
+        padding: 0px;
+    }
+    ul.downmenu li a {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+}
