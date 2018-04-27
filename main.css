@@ -334,7 +334,7 @@ ul.downmenu li a:hover {
     position: relative;
     display: inline-block;
     width: 100%;
-    background-color: whitesmoke; 
+    background-color: red; 
 }
     .directory-column-list {
     display: none;
