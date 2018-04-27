@@ -66,7 +66,7 @@ ul.menu li a:hover {
 }
 @media screen and (max-width: 700px) {
     p {
-    white-space:inherit;
+    white-space:nowrap;
     }
     h4 {
     
