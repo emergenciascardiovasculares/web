@@ -10,6 +10,7 @@ src: url(fonts/myriadpro/myriadpro.eot),  url(fonts/myriadpro/myriadpro.ttf),  u
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 ul, ol {
@@ -49,6 +50,7 @@ ul.menu li a {
 ul.menu li a:hover {
     color: gray;
 }
+/*resposive design */
 @media screen and (max-width: 600px){
     ul.menu li.right, 
     ul.menu li {
@@ -60,7 +62,15 @@ ul.menu li a:hover {
         max-height: 4px;
         padding: 0px;
     }
-
+    
+}
+@media screen and (max-width: 700px) {
+    p {
+    white-space:inherit;
+    }
+    h4 {
+    
+    }
 }
 /* iPhoneX special navigation bar */
 .iPhoneXMenu {
@@ -111,7 +121,7 @@ h1 {
 }
 
 p {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     padding-top: 30px;
     padding-left: 120px;
