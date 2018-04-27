@@ -69,12 +69,7 @@ ul.menu li a:hover {
 .containerIphoneX {
     padding: 5px;
 }
-@media screen and (max-width: 450px) {
-  .containerIphoneX {
-    padding-top: 100px;
-      visibility: hidden;
-}  
-}
+
 /* gallery */
 .photorow {
     display: flex;
@@ -331,6 +326,12 @@ ul.downmenu li a:hover {
         -webkit-user-select: none;
         -webkit-touch-callout: none;
     }   
+    
+    .containerIphoneX {
+    padding-top: 100px;
+      visibility: hidden;
+}  
+    
     .directory-column {
     position: relative;
     display: inline-block;
