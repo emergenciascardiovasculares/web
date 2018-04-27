@@ -11,6 +11,7 @@ src: url(fonts/myriadpro/myriadpro.eot),  url(fonts/myriadpro/myriadpro.ttf),  u
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 ul, ol {
@@ -70,6 +71,12 @@ ul.menu li a:hover {
     text-align: center;
     color: white;
     padding: 0;
+}
+/*responsive iphonex photo*/
+@media screen and (max-width: 600px) {
+    .containerIphonex {
+        padding-top: 90px;
+    }
 }
 /* gallery */
 .photorow {
@@ -320,12 +327,11 @@ ul.downmenu li a:hover {
     cursor: pointer;
     border-bottom: 1px solid black;
 }
-    
     .directory-column {
     position: relative;
     display: inline-block;
     width: 100%;
-    background-color: whitesmoke;    
+    background-color: whitesmoke; 
 }
     .directory-column-list {
     display: none;
@@ -349,10 +355,13 @@ ul.downmenu li a:hover {
 .directory-column:hover .directory-column-list {
     display: block;
 }
-
-.directory-column:hover ..directory-column-list-title {
-    background-color: #3e8e41;
+/* jQuery enabled behavior for mobile */
+.touch .directory-column-list-title.no-hover {
+	display: none !important;	
 }
+
+
+
     hr {
         visibility: hidden;
     }
