@@ -65,12 +65,12 @@ ul.menu li a:hover {
     
 }
 @media screen and (max-width: 500px) {
-    .bla {
+    .p_class {
         float: right;
         padding:5px;
         text-align: justify;
     }
-    .bla1 {
+    .h4_class {
         padding: 5px;
         float: left;
     }
