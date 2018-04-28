@@ -25,10 +25,13 @@ ul.menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: block;
     overflow: hidden;
     background-color: #333;
     width: 100%;
     opacity: 0.95;
+    position:absolute;
+    z-index: 1;
 }
 
 ul.menu li {
@@ -77,38 +80,44 @@ ul.menu li a:hover {
 }
 /* iPhoneX special navigation bar */
 .iPhoneXMenu {
+    width: 100%;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 30px 0px 0px 0px;
     overflow: hidden;
     background-color: white;
+    opacity: 0.9;
     border-bottom: 1px solid lightgray;
+    position: fixed;
 }
-
 .iPhoneXMenu li {
-    padding-top: 50px;
+    padding-top: 20px;
+    float: right;
+}
+.iPhoneXMenu li:first-child {
     float: left;
 }
-
 .iPhoneXMenu li a {
     display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 11px;
+    
 }
-
 .iPhoneXMenu li a:hover {
-    color: blue;
+    color: gray;
 }
 .buyButton {
-    border-radius: 8px;
-    background-color: dodgerblue;
-    text-align: center;
-    display: block;
-    cursor: pointer;
-    padding: 0px;
+    font-size: 17px;
+    line-height: 0px;
+    border-radius: 6px;
+    margin-top: 6px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: #0070c9;
+    background: -webkit-linear-gradient(#42a1ec, #0070c9);
+    background: linear-gradient(#42a1ec, #0070c9);
 }
 /* h1 iphoneX title */
 h1 {
