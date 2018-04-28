@@ -67,11 +67,11 @@ ul.menu li a:hover {
 @media screen and (max-width: 500px) {
     .p_class {
         float: right;
-        padding:5px;
+        padding:10px;
         text-align: justify;
     }
     .h4_class {
-        padding: 5px;
+        padding: 10px;
         float: left;
     }
 }
@@ -167,13 +167,38 @@ h4 {
     padding-top: 80px;
 }
 #unlockgif {
-    padding: 50px 250px 20px 250px;
+    padding: 50px 60px 20px 60px;
+}
+@media screen and (min-width: 500px) {
+    #unlockgif {
+        padding: 50px 100px 20px 100px;
+    } 
+}
+@media screen and (min-width: 600px) {
+    #unlockgif {
+        padding: 50px 150px 20px 150px;
+    } 
+}
+@media screen and (min-width: 700px) {
+    #unlockgif {
+        padding: 50px 250px 20px 250px;
+    } 
 }
 #inovativetechnologyimg {
     padding-top: 0px;
 }
-#Oleddesign {
-    padding: 20px 60px 20px 60px;
+@media screen and (max-width: 500px) {
+    #inovativetechnologyimg {
+        transform: rotate(90deg);
+    }
+}
+#Oleddesign1 {
+    padding: 20px;
+}
+@media screen and (min-width: 700px) {
+    #Oleddesign1 {
+        padding: 50px 100px 20px 100px;
+    } 
 }
 #truedepthcamera {
     padding: 20px 20px 20px 20px;
@@ -181,8 +206,28 @@ h4 {
 #allnewdesign {
     padding: 20px 30px 20px 30px;
 }
+@media screen and (min-width: 600px) {
+    #allnewdesign {
+        padding: 50px 100px 20px 100px;
+    } 
+}
+@media screen and (min-width: 700px) {
+    #allnewdesign {
+        padding: 50px 150px 20px 150px;
+    } 
+}
 #intuitiveGestures {
     padding: 100px 30px 20px 60px;
+}
+@media screen and (min-width: 600px) {
+    #intuitiveGestures {
+        padding: 50px 100px 20px 100px;
+    } 
+}
+@media screen and (min-width: 800px) {
+    #intuitiveGestures {
+        padding: 50px 200px 20px 200px;
+    } 
 }
 #secureAuthintication {
     padding: 30px 10px 20px 10px;
@@ -190,8 +235,28 @@ h4 {
 #facialmapping {
     padding: 50px 100px 20px 100px;
 }
+@media screen and (min-width: 600px) {
+    #facialmapping {
+        padding: 50px 150px 20px 150px;
+    } 
+}
+@media screen and (min-width: 800px) {
+    #facialmapping {
+        padding: 50px 200px 20px 200px;
+    } 
+}
 #applePay {
     padding: 50px 100px 20px 100px;
+}
+@media screen and (min-width: 600px) {
+    #applePay {
+        padding: 50px 150px 20px 150px;
+    } 
+}
+@media screen and (min-width: 800px) {
+    #applePay {
+        padding: 50px 200px 20px 200px;
+    } 
 }
 #faceidthinnking {
     padding: 0px;
